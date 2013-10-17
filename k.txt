@@ -1,0 +1,4 @@
+for i in range(3):
+	for column in range(32):
+	    block=Block((100,50*i,120*i),column*(25)+1,120+i*17)
+	    blocks.add(block)
